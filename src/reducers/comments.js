@@ -1,5 +1,4 @@
 import { SAVE_COMMENT, FETCH_COMMENTS } from 'actions/types';
-import { comment } from 'postcss';
 
 export default function (state = [], action) {
     switch (action.type) {
